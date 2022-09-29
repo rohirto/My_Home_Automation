@@ -191,6 +191,11 @@ void loop() {
   /*****OTA Ends **************/
 
   /* Wifi Stuff */
+   if (WiFi.status() != WL_CONNECTED) {
+    Serial.println("Connection Failed! Rebooting...");
+    delay(5000);
+    ESP.restart();
+  }
   connected = client.connected();
   if (!connected) {
     #ifdef RASP_MQTT

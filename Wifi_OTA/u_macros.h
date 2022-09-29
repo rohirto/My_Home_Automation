@@ -2,7 +2,7 @@
 #define U_MACROS_H
 //#define RASP_MQTT       0
 
-#define TOKEN                       "/*Removed For Github upload*/" 
+#define TOKEN                       "B_B_F_F-VdwAHd768HeUefFdPHAfa23CrLE0EW"    /* Remove the underscores while uploading */
 #define MQTT_CLIENT_NAME            "NodeMCU"
 /********** Control Variables *******************************/
 #ifdef RASP_MQTT
